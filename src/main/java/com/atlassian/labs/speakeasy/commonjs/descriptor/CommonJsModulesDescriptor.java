@@ -76,7 +76,7 @@ public class CommonJsModulesDescriptor extends AbstractModuleDescriptor<CommonJs
         {
             pluginBundle = findBundleForPlugin(plugin);
             modules = new CommonJsModules(this, pluginBundle, location);
-            generatedDescriptorsManager = new GeneratedDescriptorsManager(pluginBundle, modules, pluginAccessor, pluginEventManager, this, hostContainer);
+            generatedDescriptorsManager = new GeneratedDescriptorsManager(pluginBundle, modules, pluginAccessor, pluginEventManager, this);
         }
     }
 
