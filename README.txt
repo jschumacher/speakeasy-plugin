@@ -16,3 +16,6 @@ When getting started developing the Speakeasy plugin, these commands will come i
 
 * Test your changes in all three products at once - open up three terminals and execute the above refapp:debug commands,
   one per product.  You will also need three more tabs for each of the 'cli' invocations.
+
+
+Test
